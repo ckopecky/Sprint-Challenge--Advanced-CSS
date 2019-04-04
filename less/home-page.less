@@ -61,6 +61,17 @@
       }
 
       .btn {
+        padding: 15px;
+        border-radius: 5px;
+        font-size: 2rem;
+        .custom-flex-layout(center, center);
+        .custom-button-style(@sea-shell, @ebony-clay, 30%);
+        font-weight: bold;
+        cursor: pointer;
+        &:hover{
+          color: @ebony-clay;
+          background: @sea-shell;
+        }
       }
     }
 
