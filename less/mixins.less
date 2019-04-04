@@ -1,1 +1,24 @@
 // Mixins Here
+
+.custom-flex-layout(@align, @justify){
+    display: flex;
+    align-items: @align;
+    justify-content: @justify;
+}
+
+.custom-button-style(@color, @bg-color, @width){
+    color: @color;
+    background-color: @bg-color;
+    width: @width;
+}
+
+.center-column() {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-style(@color){
+    text-decoration: none;
+    color: @color;
+}
