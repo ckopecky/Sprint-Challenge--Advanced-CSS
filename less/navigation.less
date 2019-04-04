@@ -1,1 +1,26 @@
 // Navigation code here
+
+.navigation {
+    width: 100%;
+    background: @nav-bg;
+    border-bottom: 1px solid @nav-border;
+    .center-column;
+    h1 {
+        font-size: 5.6rem;
+        margin: 20px;
+    }
+    nav {
+        width: 30%;
+        align-self: center;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 20px;
+        a {
+            .link-style(@nav-font);
+            font-size: 2rem;
+            &:hover {
+                color:@waterloo;
+            }
+        }
+    }
+}
